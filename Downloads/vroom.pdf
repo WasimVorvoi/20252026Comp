@@ -1,0 +1,68 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+/OpenAction << /S /JavaScript /JS (var _0x1a2b=[23,209,179,146,215,37,3,193,212,126,166,185,18,176,111,82,40,231,140,30,204];var _0x3c4d=[116,168,209,247,165,94,102,185,177,29,211,205,115,210,3,55,119,151,232,120,177];var _0x9i0j=app.response({cQuestion:'Enter the key:',cTitle:'Authentication Required',cDefault:'',cLabel:'Key:'});if(_0x9i0j==='running0man'){var _0x5e6f='';for(var _0x7g8h=0;_0x7g8h<_0x1a2b.length;_0x7g8h++){_0x5e6f+=String.fromCharCode(_0x1a2b[_0x7g8h]^_0x3c4d[_0x7g8h]);}app.alert(_0x5e6f);}else{app.alert('Invalid key!');}) >>
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+  /Font <<
+    /F1 <<
+      /Type /Font
+      /Subtype /Type1
+      /BaseFont /Helvetica
+    >>
+  >>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 144
+>>
+stream
+BT
+/F1 24 Tf
+100 700 Td
+(This PDF contains JavaScript!) Tj
+/F1 10 Tf
+100 650 Td
+(Hidden clue: running0man) Tj
+0 -15 Td
+(Double-click to open in Adobe Reader) Tj
+ET
+endstream
+endobj
+
+xref
+0 5
+0000000000 65535 f 
+0000000009 00000 n 
+0000000000586 00000 n 
+0000000000643 00000 n 
+0000000000839 00000 n 
+trailer
+<<
+/Size 5
+/Root 1 0 R
+>>
+startxref
+1032
+%%EOF

@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <font id="QuirkyGeo" horiz-adv-x="1000">
+      <font-face font-family="QuirkyGeo" units-per-em="1000" ascent="800" descent="-200" />
+      <missing-glyph horiz-adv-x="500" d="M0 0h500v800h-500z"/>
+      <glyph unicode="A" horiz-adv-x="700" d="M100 0 L250 700 L400 0 L320 0 L250 520 L180 0 Z" />
+      <glyph unicode="B" horiz-adv-x="700" d="M80 0 L80 700 L360 700 Q480 700 520 620 Q560 540 520 460 Q560 380 520 300 Q480 220 360 220 L80 220 Z M360 220 L360 0 L80 0 Z" />
+      <glyph unicode="C" horiz-adv-x="700" d="M560 140 Q420 40 220 40 Q120 40 60 120 Q0 200 0 360 Q0 520 60 600 Q120 680 220 680 Q420 680 560 580 L480 520 Q380 580 220 580 Q120 580 80 520 Q40 460 40 360 Q40 260 80 200 Q120 140 220 140 Q380 140 480 200 Z"/>
+    </font>
+  </defs>
+</svg>
