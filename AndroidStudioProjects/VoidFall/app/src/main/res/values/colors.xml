@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Fracture Arena palette -->
+    <color name="arena_base">#FF1A1A2E</color>
+    <color name="arena_glow">#FF16213E</color>
+    <color name="fracture_line">#FF0F3460</color>
+    <color name="fracture_glow">#FF00D4FF</color>
+
+    <!-- Player -->
+    <color name="player_body">#FF00FFCC</color>
+    <color name="player_dash">#FF00D4FF</color>
+
+    <!-- Enemies -->
+    <color name="fast_enemy">#FF00E5FF</color>
+    <color name="heavy_enemy">#FFFF6B35</color>
+    <color name="ranged_enemy">#FFBB86FC</color>
+    <color name="projectile_color">#FFFFCC00</color>
+
+    <!-- Bosses -->
+    <color name="boss_shatter_king">#FFFF2D55</color>
+    <color name="boss_mirror_beast">#FF64FFDA</color>
+    <color name="boss_echo_titan">#FF7C4DFF</color>
+    <color name="boss_hp_bar">#FFFF3B30</color>
+
+    <!-- HUD -->
+    <color name="hud_hp_full">#FF00FFCC</color>
+    <color name="hud_hp_empty">#FF444444</color>
+    <color name="objective_bar_fill">#FF00D4FF</color>
+    <color name="mirror_zone">#330064FF</color>
+</resources>

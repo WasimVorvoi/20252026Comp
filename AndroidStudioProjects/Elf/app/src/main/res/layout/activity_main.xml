@@ -1,0 +1,88 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8CD5FA"
+    android:padding="24dp"
+    android:id="@+id/main">
+
+    <ImageView
+        android:id="@+id/ElfMoood"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/idle" />
+
+    <TextView
+        android:id="@+id/MoodDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="The elf is idle..."
+        android:textColor="#184D6D"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/ElfMoood"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/EnergyLab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Elf Energy"
+        android:textColor="#065726"
+        app:layout_constraintTop_toBottomOf="@id/MoodDes"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <SeekBar
+        android:id="@+id/energySeek"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        app:layout_constraintTop_toTopOf="@id/EnergyLab"
+        app:layout_constraintBottom_toBottomOf="@id/EnergyLab"
+        app:layout_constraintStart_toEndOf="@id/EnergyLab"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/CookieCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Cookies: 0"
+        android:textColor="#803515"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/energySeek"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/giveCookie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
+        android:text="GIVE COOKIE"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toTopOf="@id/CookieCount"
+        app:layout_constraintBottom_toBottomOf="@id/CookieCount"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/workshopSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="WORKSHOP OPEN"
+        app:thumbTint="#00FF00"
+        app:trackTint="#FF0000"
+        app:layout_constraintTop_toBottomOf="@id/giveCookie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

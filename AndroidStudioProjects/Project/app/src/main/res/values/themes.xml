@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+        FrozenEscape theme:
+        - No action bar (we draw our own HUD)
+        - Dark background so there's no white flash on startup
+        - windowBackground matches our game's dark navy colour
+    -->
+    <style name="Theme.FrozenEscape" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/frozen_bg_dark</item>
+        <item name="android:statusBarColor">@color/frozen_bg_dark</item>
+        <item name="android:navigationBarColor">@color/frozen_bg_dark</item>
+        <item name="colorPrimary">@color/ice_teal</item>
+        <item name="colorPrimaryDark">@color/ice_teal_dark</item>
+    </style>
+</resources>

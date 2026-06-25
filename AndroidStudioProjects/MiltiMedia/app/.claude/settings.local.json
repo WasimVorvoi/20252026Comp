@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"c:\\\\Users\\\\30002804\\\\AndroidStudioProjects\\\\MiltiMedia\\\\gradlew.bat\" assembleDebug)"
+    ]
+  }
+}

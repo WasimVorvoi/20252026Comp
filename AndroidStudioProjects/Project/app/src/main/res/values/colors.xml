@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Frozen Escape colour palette -->
+    <!-- Primary dark background -->
+    <color name="frozen_bg_dark">#FF050E28</color>
+    <!-- Ice blue tones -->
+    <color name="ice_blue_dark">#FF1E3263</color>
+    <color name="ice_blue_mid">#FF3782C3</color>
+    <color name="ice_blue_light">#FF6EB4EB</color>
+    <!-- Accent teal (goal / UI highlights) -->
+    <color name="ice_teal">#FF00DCE0</color>
+    <color name="ice_teal_dark">#FF009690</color>
+    <!-- Danger / spike colour -->
+    <color name="danger_red">#FFDC503C</color>
+    <!-- Cracking ice warm tone -->
+    <color name="crack_orange">#FFC87828</color>
+    <!-- Text colours -->
+    <color name="text_primary">#FFDCF0FF</color>
+    <color name="text_secondary">#FF96B4DC</color>
+    <!-- Standard (kept for compatibility) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

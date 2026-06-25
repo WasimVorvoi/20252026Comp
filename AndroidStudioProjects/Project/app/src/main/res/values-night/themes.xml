@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Night mode uses the same dark theme — game is already dark -->
+    <style name="Theme.FrozenEscape" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/frozen_bg_dark</item>
+        <item name="android:statusBarColor">@color/frozen_bg_dark</item>
+        <item name="android:navigationBarColor">@color/frozen_bg_dark</item>
+        <item name="colorPrimary">@color/ice_teal</item>
+        <item name="colorPrimaryDark">@color/ice_teal_dark</item>
+    </style>
+</resources>

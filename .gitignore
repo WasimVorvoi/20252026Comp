@@ -36,6 +36,14 @@ crashlytics-build.properties
 *.aab
 *.unitypackage
 
+# ---- Android Studio / Gradle ----
+.gradle/
+.cxx/
+.kotlin/
+captures/
+*.iml
+local.properties
+
 # OS
 .DS_Store
 Thumbs.db

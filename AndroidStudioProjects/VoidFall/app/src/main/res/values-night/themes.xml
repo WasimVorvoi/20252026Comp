@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.VoidFall" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <style name="Theme.VoidFall" parent="Base.Theme.VoidFall" />
+
+    <style name="Theme.VoidFall.Fullscreen" parent="Theme.VoidFall">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+</resources>
