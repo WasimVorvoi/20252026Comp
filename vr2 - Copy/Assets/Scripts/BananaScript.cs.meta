@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9937aa9eb142d6f4181a93723c5413b0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - sliceMaterial: {fileID: 2100000, guid: 57440868ea8481a4798ee11b8fbd0b7a, type: 2}
+  - juicePrefab: {instanceID: 0}
+  - score: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

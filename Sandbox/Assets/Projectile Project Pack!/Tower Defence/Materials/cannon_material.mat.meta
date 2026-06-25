@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b550eaf458504ef49b384bd884eb414b
+timeCreated: 1477319747
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74837
+  packageName: Tower Defence - Cannon
+  packageVersion: 1.0
+  assetPath: Assets/Tower Defence/Materials/cannon_material.mat
+  uploadId: 143952

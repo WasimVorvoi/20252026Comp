@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 221e5771a9a39f448826b638fc38b19e
+timeCreated: 1477419414
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74837
+  packageName: Tower Defence - Cannon
+  packageVersion: 1.0
+  assetPath: Assets/Tower Defence/Materials/flag_and_iron_material.mat
+  uploadId: 143952

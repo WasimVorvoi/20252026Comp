@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c3972e907b0658488f0f413c7c1fc82
+timeCreated: 1477158675
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74837
+  packageName: Tower Defence - Cannon
+  packageVersion: 1.0
+  assetPath: Assets/Tower Defence/Materials/floor_material.mat
+  uploadId: 143952

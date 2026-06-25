@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0075b90dfa6de574ca86275d8d07825c
+timeCreated: 1477419473
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74837
+  packageName: Tower Defence - Cannon
+  packageVersion: 1.0
+  assetPath: Assets/Tower Defence/Materials/rotater_material.mat
+  uploadId: 143952

@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3194222317708939665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9021618701533391120}
+  - component: {fileID: 2229322718647818597}
+  - component: {fileID: 1923745851425660231}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9021618701533391120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194222317708939665}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2229322718647818597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194222317708939665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e7590cab06aadf4792b249b1b152213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  startScore: 0
+  minScore: 0
+  gameLength: 60
+  timeLeft: 0
+  gameRunning: 0
+  startMessage: Grab the bat to start!
+  emptyMessage: 
+  gameOverMessage: 'Game Over! Score: '
+  scorePrefix: 'Score: '
+  timePrefix: 'Time: '
+  scoreText: {fileID: 0}
+  timerText: {fileID: 0}
+  messageText: {fileID: 0}
+  spawner: {fileID: 0}
+  highScores: {fileID: 1923745851425660231}
+  slowMoScale: 0.3
+  slowMoDuration: 5
+--- !u!114 &1923745851425660231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194222317708939665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6de9b5c30a3994b801535545329f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayText: {fileID: 0}
+  defaultScore: 0
+  title: 'High Scores
+
+'
+  entry1Prefix: '1. '
+  entry2Prefix: '
+
+    2. '
+  entry3Prefix: '
+
+    3. '
